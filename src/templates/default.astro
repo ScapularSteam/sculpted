@@ -9,9 +9,14 @@ import "../shared/global.css";
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     </head>
 
     <body class="bg-[url(/bg-colour.svg)] w-screen h-screen bg-auto">
+        <img src="flag-orpheus-top-bw.svg" class="absolute top-0 left-0 max-w-2xs"/>
         <slot/>
     </body>
 </html>
